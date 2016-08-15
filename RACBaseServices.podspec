@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
     s.requires_arc = true
     s.frameworks ='Foundation','UIKit'
     s.platform = :ios
-    s.ios.deployment_target = '7.0'
+    s.ios.deployment_target = '8.0'
     s.dependency 'ReactiveCocoa', '~> 4.2.1'
     s.private_header_files = 'RACBaseServices/Private/*.{h,m}'
 end
