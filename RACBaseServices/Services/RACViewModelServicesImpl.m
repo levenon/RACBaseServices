@@ -8,6 +8,13 @@
 
 #import "RACViewModelServicesImpl.h"
 
+@interface RACViewModelServicesImpl ()
+
+@property (nonatomic, strong) id client;
+@property (nonatomic, strong) id<RACAppStoreService> appStoreService;
+
+@end
+
 @implementation RACViewModelServicesImpl
 
 - (instancetype)init {
