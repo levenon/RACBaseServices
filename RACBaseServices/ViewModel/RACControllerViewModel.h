@@ -50,7 +50,7 @@ typedef NS_ENUM(NSUInteger, RACTitleViewType) {
 @property (nonatomic, strong, readonly) Class viewControllerClass;
 
 /// The callback block.
-@property (nonatomic, copy) id (^callback)();
+@property (nonatomic, copy) void (^callback)(id obj);
 
 @property (nonatomic, assign) BOOL shouldFetchLocalDataOnViewModelInitialize;
 @property (nonatomic, assign) BOOL shouldRequestRemoteDataOnViewDidLoad;
