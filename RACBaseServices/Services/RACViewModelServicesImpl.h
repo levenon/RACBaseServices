@@ -11,4 +11,6 @@
 
 @interface RACViewModelServicesImpl : NSObject <RACViewModelServices>
 
+@property (nonatomic, strong) id client;
+
 @end
