@@ -13,7 +13,7 @@
 @protocol RACViewModelServices <NSObject, RACNavigationProtocol>
 
 @optional
-@property (nonatomic, strong, readonly) id client;
+@property (nonatomic, strong) id client;
 @property (nonatomic, strong, readonly) id<RACAppStoreService> appStoreService;
 
 @end
