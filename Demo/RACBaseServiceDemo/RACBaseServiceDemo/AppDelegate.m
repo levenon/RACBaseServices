@@ -7,16 +7,35 @@
 //
 
 #import "AppDelegate.h"
+#import <RACBaseServices/RACBaseServices.h>
+#import "RootViewModel.h"
 
 @interface AppDelegate ()
+
+@property (nonatomic, strong) id<RACViewModelServices> services;
+
+@property (nonatomic, strong) RACNavigationControllerStack *viewControllerStack;
 
 @end
 
 @implementation AppDelegate
 
+- (id<RACViewModelServices>)services{
+    if (!_services) {
+        _services = [[RACViewModelServicesImpl alloc] init];
+    }
+    return _services;
+}
+
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    self.viewControllerStack = [[RACNavigationControllerStack alloc] initWithServices:[self services]];
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.backgroundColor = [UIColor whiteColor];
+    [[self services] resetRootNavigationWithViewModel:[[RootViewModel alloc] initWithServices:[self services] params:nil]];
+    [[self window] makeKeyAndVisible];
+    
     return YES;
 }
 

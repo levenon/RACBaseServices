@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  RootViewController.h
 //  RACBaseServiceDemo
 //
 //  Created by dihong on 16/8/24.
@@ -7,9 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "BaseViewController.h"
 
-@interface ViewController : UIViewController
-
+@interface RootViewController : BaseViewController
 
 @end
 

@@ -7,13 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0287088CFE7A8CABA21AB1F8 /* Pods_RACBaseServiceDemoTargets_RACBaseServiceDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E90CAF0C76E0F0913E698C4A /* Pods_RACBaseServiceDemoTargets_RACBaseServiceDemo.framework */; };
+		C53F53441D6D87AB0002DF18 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C53F53431D6D87AB0002DF18 /* RootViewController.m */; };
+		C53F53471D6D87E00002DF18 /* RootViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C53F53461D6D87E00002DF18 /* RootViewModel.m */; };
+		C53F53501D6D8A580002DF18 /* NextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C53F534F1D6D8A580002DF18 /* NextViewController.m */; };
+		C53F53531D6D8A640002DF18 /* NextViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C53F53521D6D8A640002DF18 /* NextViewModel.m */; };
+		C53F53561D6D8C880002DF18 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C53F53551D6D8C880002DF18 /* BaseViewController.m */; };
 		C5B0A7381D6D82A40091E2E9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C5B0A7371D6D82A40091E2E9 /* main.m */; };
 		C5B0A73B1D6D82A40091E2E9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C5B0A73A1D6D82A40091E2E9 /* AppDelegate.m */; };
-		C5B0A73E1D6D82A40091E2E9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5B0A73D1D6D82A40091E2E9 /* ViewController.m */; };
-		C5B0A7411D6D82A40091E2E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5B0A73F1D6D82A40091E2E9 /* Main.storyboard */; };
 		C5B0A7431D6D82A40091E2E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5B0A7421D6D82A40091E2E9 /* Assets.xcassets */; };
 		C5B0A7461D6D82A40091E2E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5B0A7441D6D82A40091E2E9 /* LaunchScreen.storyboard */; };
-		C5B0A7511D6D82A40091E2E9 /* RACBaseServiceDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C5B0A7501D6D82A40091E2E9 /* RACBaseServiceDemoUITests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +30,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C18876C05DF2DC2B7F6E245 /* Pods-RACBaseServiceDemoTargets-RACBaseServiceDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RACBaseServiceDemoTargets-RACBaseServiceDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-RACBaseServiceDemoTargets-RACBaseServiceDemo/Pods-RACBaseServiceDemoTargets-RACBaseServiceDemo.release.xcconfig"; sourceTree = "<group>"; };
+		B23C08092391EBE0B2985D0D /* Pods-RACBaseServiceDemoTargets-RACBaseServiceDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RACBaseServiceDemoTargets-RACBaseServiceDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RACBaseServiceDemoTargets-RACBaseServiceDemo/Pods-RACBaseServiceDemoTargets-RACBaseServiceDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		C53F53421D6D87AB0002DF18 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		C53F53431D6D87AB0002DF18 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		C53F53451D6D87E00002DF18 /* RootViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewModel.h; sourceTree = "<group>"; };
+		C53F53461D6D87E00002DF18 /* RootViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewModel.m; sourceTree = "<group>"; };
+		C53F534E1D6D8A580002DF18 /* NextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NextViewController.h; sourceTree = "<group>"; };
+		C53F534F1D6D8A580002DF18 /* NextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NextViewController.m; sourceTree = "<group>"; };
+		C53F53511D6D8A640002DF18 /* NextViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NextViewModel.h; sourceTree = "<group>"; };
+		C53F53521D6D8A640002DF18 /* NextViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NextViewModel.m; sourceTree = "<group>"; };
+		C53F53541D6D8C880002DF18 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		C53F53551D6D8C880002DF18 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
 		C5B0A7331D6D82A40091E2E9 /* RACBaseServiceDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RACBaseServiceDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5B0A7371D6D82A40091E2E9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C5B0A7391D6D82A40091E2E9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C5B0A73A1D6D82A40091E2E9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C5B0A73C1D6D82A40091E2E9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C5B0A73D1D6D82A40091E2E9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		C5B0A7401D6D82A40091E2E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C5B0A7421D6D82A40091E2E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C5B0A7451D6D82A40091E2E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C5B0A7471D6D82A40091E2E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C5B0A74C1D6D82A40091E2E9 /* RACBaseServiceDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RACBaseServiceDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C5B0A7501D6D82A40091E2E9 /* RACBaseServiceDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RACBaseServiceDemoUITests.m; sourceTree = "<group>"; };
-		C5B0A7521D6D82A40091E2E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E90CAF0C76E0F0913E698C4A /* Pods_RACBaseServiceDemoTargets_RACBaseServiceDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RACBaseServiceDemoTargets_RACBaseServiceDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0287088CFE7A8CABA21AB1F8 /* Pods_RACBaseServiceDemoTargets_RACBaseServiceDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +72,45 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		30A3B3A7413BC6DEEF8E76A1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E90CAF0C76E0F0913E698C4A /* Pods_RACBaseServiceDemoTargets_RACBaseServiceDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C53F53401D6D87AB0002DF18 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				C53F53451D6D87E00002DF18 /* RootViewModel.h */,
+				C53F53461D6D87E00002DF18 /* RootViewModel.m */,
+				C53F53511D6D8A640002DF18 /* NextViewModel.h */,
+				C53F53521D6D8A640002DF18 /* NextViewModel.m */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		C53F53411D6D87AB0002DF18 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C53F53541D6D8C880002DF18 /* BaseViewController.h */,
+				C53F53551D6D8C880002DF18 /* BaseViewController.m */,
+				C53F53421D6D87AB0002DF18 /* RootViewController.h */,
+				C53F53431D6D87AB0002DF18 /* RootViewController.m */,
+				C53F534E1D6D8A580002DF18 /* NextViewController.h */,
+				C53F534F1D6D8A580002DF18 /* NextViewController.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		C5B0A72A1D6D82A40091E2E9 = {
 			isa = PBXGroup;
 			children = (
 				C5B0A7351D6D82A40091E2E9 /* RACBaseServiceDemo */,
-				C5B0A74F1D6D82A40091E2E9 /* RACBaseServiceDemoUITests */,
 				C5B0A7341D6D82A40091E2E9 /* Products */,
+				C912516A2CF09DA18C9F7CB5 /* Pods */,
+				30A3B3A7413BC6DEEF8E76A1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,11 +126,10 @@
 		C5B0A7351D6D82A40091E2E9 /* RACBaseServiceDemo */ = {
 			isa = PBXGroup;
 			children = (
+				C53F53401D6D87AB0002DF18 /* ViewModels */,
+				C53F53411D6D87AB0002DF18 /* Views */,
 				C5B0A7391D6D82A40091E2E9 /* AppDelegate.h */,
 				C5B0A73A1D6D82A40091E2E9 /* AppDelegate.m */,
-				C5B0A73C1D6D82A40091E2E9 /* ViewController.h */,
-				C5B0A73D1D6D82A40091E2E9 /* ViewController.m */,
-				C5B0A73F1D6D82A40091E2E9 /* Main.storyboard */,
 				C5B0A7421D6D82A40091E2E9 /* Assets.xcassets */,
 				C5B0A7441D6D82A40091E2E9 /* LaunchScreen.storyboard */,
 				C5B0A7471D6D82A40091E2E9 /* Info.plist */,
@@ -102,13 +146,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		C5B0A74F1D6D82A40091E2E9 /* RACBaseServiceDemoUITests */ = {
+		C912516A2CF09DA18C9F7CB5 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				C5B0A7501D6D82A40091E2E9 /* RACBaseServiceDemoUITests.m */,
-				C5B0A7521D6D82A40091E2E9 /* Info.plist */,
+				B23C08092391EBE0B2985D0D /* Pods-RACBaseServiceDemoTargets-RACBaseServiceDemo.debug.xcconfig */,
+				0C18876C05DF2DC2B7F6E245 /* Pods-RACBaseServiceDemoTargets-RACBaseServiceDemo.release.xcconfig */,
 			);
-			path = RACBaseServiceDemoUITests;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,9 +162,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C5B0A7551D6D82A40091E2E9 /* Build configuration list for PBXNativeTarget "RACBaseServiceDemo" */;
 			buildPhases = (
+				7C213CFCEE58544E48D501CB /* [CP] Check Pods Manifest.lock */,
 				C5B0A72F1D6D82A40091E2E9 /* Sources */,
 				C5B0A7301D6D82A40091E2E9 /* Frameworks */,
 				C5B0A7311D6D82A40091E2E9 /* Resources */,
+				AAA90287EA7809A8538A2672 /* [CP] Embed Pods Frameworks */,
+				D65F816D09C38CD18640E4B3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,7 +240,6 @@
 			files = (
 				C5B0A7461D6D82A40091E2E9 /* LaunchScreen.storyboard in Resources */,
 				C5B0A7431D6D82A40091E2E9 /* Assets.xcassets in Resources */,
-				C5B0A7411D6D82A40091E2E9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,13 +252,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7C213CFCEE58544E48D501CB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AAA90287EA7809A8538A2672 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RACBaseServiceDemoTargets-RACBaseServiceDemo/Pods-RACBaseServiceDemoTargets-RACBaseServiceDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D65F816D09C38CD18640E4B3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RACBaseServiceDemoTargets-RACBaseServiceDemo/Pods-RACBaseServiceDemoTargets-RACBaseServiceDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C5B0A72F1D6D82A40091E2E9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C5B0A73E1D6D82A40091E2E9 /* ViewController.m in Sources */,
+				C53F53531D6D8A640002DF18 /* NextViewModel.m in Sources */,
+				C53F53441D6D87AB0002DF18 /* RootViewController.m in Sources */,
+				C53F53501D6D8A580002DF18 /* NextViewController.m in Sources */,
 				C5B0A73B1D6D82A40091E2E9 /* AppDelegate.m in Sources */,
+				C53F53471D6D87E00002DF18 /* RootViewModel.m in Sources */,
+				C53F53561D6D8C880002DF18 /* BaseViewController.m in Sources */,
 				C5B0A7381D6D82A40091E2E9 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -221,7 +319,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C5B0A7511D6D82A40091E2E9 /* RACBaseServiceDemoUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,14 +333,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		C5B0A73F1D6D82A40091E2E9 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C5B0A7401D6D82A40091E2E9 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		C5B0A7441D6D82A40091E2E9 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -341,9 +430,12 @@
 		};
 		C5B0A7561D6D82A40091E2E9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B23C08092391EBE0B2985D0D /* Pods-RACBaseServiceDemoTargets-RACBaseServiceDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				INFOPLIST_FILE = RACBaseServiceDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.markejave.RACBaseServiceDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -352,9 +444,12 @@
 		};
 		C5B0A7571D6D82A40091E2E9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C18876C05DF2DC2B7F6E245 /* Pods-RACBaseServiceDemoTargets-RACBaseServiceDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				INFOPLIST_FILE = RACBaseServiceDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.markejave.RACBaseServiceDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -402,6 +497,7 @@
 				C5B0A7571D6D82A40091E2E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C5B0A7581D6D82A40091E2E9 /* Build configuration list for PBXNativeTarget "RACBaseServiceDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -410,6 +506,7 @@
 				C5B0A75A1D6D82A40091E2E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
