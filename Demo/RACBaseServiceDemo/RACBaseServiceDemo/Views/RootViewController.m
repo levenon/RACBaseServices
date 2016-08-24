@@ -43,13 +43,18 @@
     [super bindViewModel];
     
     @weakify(self);
+    [RACObserve([self viewModel], buttonTitle) subscribeNext:^(NSString *title) {
+        @strongify(self);
+        [[self pushButton] setTitle:title forState:UIControlStateNormal];
+    }];
+    
     [[[self pushButton] rac_signalForControlEvents:UIControlEventTouchUpInside] subscribeNext:^(id x) {
         @strongify(self);
         [[[self viewModel] pushCommand] execute:nil];
     }];
     
-//    or
-//    self.pushButton.rac_command = self.viewModel.pushCommand
+    //    or
+    //    self.pushButton.rac_command = self.viewModel.pushCommand
 }
 
 #pragma mark - accessor
@@ -58,7 +63,6 @@
     if (!_pushButton) {
         _pushButton = [[UIButton alloc] initWithFrame:CGRectMake(30, 200, 200, 50)];
         _pushButton.backgroundColor = [UIColor blueColor];
-        [_pushButton setTitle:@"push" forState:UIControlStateNormal];
     }
     return _pushButton;
 }

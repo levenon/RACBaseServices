@@ -12,6 +12,8 @@
 
 @interface RootViewModel ()
 
+@property (nonatomic, copy  ) NSString *buttonTitle;
+
 @property (nonatomic, strong) RACCommand *pushCommand;
 
 @end
@@ -21,6 +23,7 @@
 - (instancetype)initWithServices:(id<RACViewModelServices>)services params:(NSDictionary *)params{
     if (self = [super initWithServices:services params:params]){
         self.title = @"root";
+        self.buttonTitle = @"push";
     }
     return self;
 }

@@ -10,6 +10,8 @@
 
 @interface RootViewModel : RACControllerViewModel
 
+@property (nonatomic, copy  , readonly) NSString *buttonTitle;
+
 @property (nonatomic, strong, readonly) RACCommand *pushCommand;
 
 @end
