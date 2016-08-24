@@ -1,0 +1,23 @@
+source 'https://github.com/CocoaPods/Specs.git'
+inhibit_all_warnings!
+
+target '' do
+    
+    platform :ios, ‘8.0’
+    use_frameworks!
+    
+    pod 'ReactiveCocoa', '~> 4.2.1'
+end
+
+inhibit_all_warnings!
+
+platform :ios, '8.0'
+use_frameworks!
+
+abstract_target 'RACBaseServiceTargets’ do
+    
+    pod 'RACBaseService', :git => 'https://github.com/MarkeJave/RACBaseServices.git', :tag => '1.0.0'
+    
+    target 'RACBaseServices' do
+    end
+end
